@@ -26,10 +26,10 @@ $image = new Hex_image;
 $image->set_color(...);
 $image->set_shape(...);
 $image->start();	// can't call previous functions after this, or following functions before
-$image->hextext(...);
-$image->hexfill(...);
-$image->hexborder(...);
-$image->hexhighlight(...);
+$image->text(...);
+$image->fill(...);
+$image->border(...);
+$image->highlight(...);
 $image->finish();	// calls imagepng()
 */
 
